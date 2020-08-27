@@ -2,7 +2,7 @@ package com.yuelchen.main;
 
 import java.util.Scanner;
 
-public class UsingScanner {
+public class Survey {
 	
 	public static void main(String[] args) {
 		
