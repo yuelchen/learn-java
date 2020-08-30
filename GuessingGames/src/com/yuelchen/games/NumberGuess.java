@@ -20,7 +20,7 @@ import java.util.Scanner;
  *  - Correct (guess number is equal to random number).
  * 
  * @author 	yuelchen
- * @version 1.0.0
+ * @version	1.0.0
  * @since 	2020-08-26
  */
 public class NumberGuess {

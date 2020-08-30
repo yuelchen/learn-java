@@ -2,8 +2,21 @@ package com.yuelchen.main;
 
 import java.util.Scanner;
 
+/**
+ * Survey is a main method class for demonstrating on using Java Scanner that is 
+ * a part of Java API Library. 
+ * 
+ * @author 	yuelchen
+ * @version	1.0.0
+ * @since 	2020-08-26
+ */
 public class Survey {
 	
+	/**
+	 * The main method. 
+	 * 
+	 * @param args					an array of Strings as main method arguments.
+	 */
 	public static void main(String[] args) {
 		
 		//initialize scanner object for system input (i.e. console).
