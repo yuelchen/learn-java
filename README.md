@@ -1,4 +1,4 @@
-# explore-java-api-library
+# java-api-library
 This repository is a collection of Java examples or simple projects in using the built-in Java api library.
 
 ### Scanner
