@@ -55,7 +55,7 @@ public class NamingConvention {
 		
 		//regex for S3 object prefix
 		String[] prefixes = {
-					"land/default/DSET00000000/raw",
+					"land/default/DSET00000000/raw/",
 					"land/default/DSET00000000/raw",
 					"land//default/DSET00000000/raw",
 					"/land/default/DSET00000000/temp.txt",
@@ -84,13 +84,13 @@ public class NamingConvention {
 	//====================================================================================================
 	
 	private static boolean isEmailSenderOrganization(String eMail) {
-		String pattern = "\\w+@gmail.com";
+		String pattern = "[a-zA-Z]{1}[\\.a-zA-Z0-9_-]+[a-zA-Z0-9]{1}@gmail.com";
 		return eMail.matches(pattern);
 	}
 	
 	//====================================================================================================
 	private static boolean isValidPrefix(String prefix) {
-		String pattern = "(land|prepare)/\\w+/DSET\\d{8}/[a-zA-Z]{1}[a-zA-Z0-9_-]+";
+		String pattern = "(land|prepare)/.+/DSET\\d{8}/.+";
 		return prefix.matches(pattern);
 	}
 }
