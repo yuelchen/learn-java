@@ -1,4 +1,4 @@
-package com.yuelchen.kiad;
+package com.yuelchen.load;
 
 public abstract class DataStructureLoadTest {
 	

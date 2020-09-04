@@ -1,4 +1,4 @@
-package com.yuelchen.kiad;
+package com.yuelchen.load;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -28,11 +28,18 @@ public class HashMapLoadTest extends DataStructureLoadTest {
 				executor.execute(new Runnable() {
 					
 					public void run() {
+						long threadStartTime = System.nanoTime();
 						for (int load = 0; load < loadCount; load++) {
 							String randomNumber = String.valueOf(
 									Math.ceil(Math.random() * loadCount));
 							mapLoad.get(randomNumber);
 						}
+						long threadEndTime = System.nanoTime();
+						long difference = Calculate.getDifferenceMilliSeconds(
+								threadEndTime, threadStartTime);
+						System.out.println(String.format("\t- Thread process completed "
+								+ "a load of '%d' get operations in '%d ms'", 
+								loadCount, difference));
 					}
 					
 				});
@@ -65,11 +72,18 @@ public class HashMapLoadTest extends DataStructureLoadTest {
 				executor.execute(new Runnable() {
 					
 					public void run() {
+						long threadStartTime = System.nanoTime();
 						for (int load = 0; load < loadCount; load++) {
 							String randomNumber = String.valueOf(
 									Math.ceil(Math.random() * loadCount));
 							mapLoad.put(randomNumber, load);
-						}						
+						}
+						long threadEndTime = System.nanoTime();
+						long difference = Calculate.getDifferenceMilliSeconds(
+								threadEndTime, threadStartTime);
+						System.out.println(String.format("\t- Thread process completed "
+								+ "a load of '%d' get operations in '%d ms'", 
+								loadCount, difference));
 					}
 					
 				});

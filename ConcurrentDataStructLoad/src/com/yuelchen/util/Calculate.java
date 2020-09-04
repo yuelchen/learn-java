@@ -7,6 +7,10 @@ public class Calculate {
 	}
 	
 	public static long getDifferenceMilliSeconds(long endTimeNanoSec, long startTimeNanoSec) {
+		return getDifferenceMicroSeconds(endTimeNanoSec, startTimeNanoSec) / 1000;
+	}
+	
+	public static long getDifferenceMicroSeconds(long endTimeNanoSec, long startTimeNanoSec) {
 		return getDifferenceNanoSeconds(endTimeNanoSec, startTimeNanoSec) / 1000;
 	}
 	
