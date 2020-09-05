@@ -1,5 +1,5 @@
 # java-api-library
-This repository is a collection of Java examples or simple projects in using the built-in Java api library.
+This repository is a collection of examples or simple projects in using the built-in Java api library.
 
 ### Scanner
 A java utility for obtaining input for primitive types and Strings; see below two projects for source examples:
