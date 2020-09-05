@@ -11,3 +11,6 @@ A java utility for loading, adding, removing and storing configuration propertie
 This allows configuration properties to be driven through an external file rather than hard coded values - leading to release changes being configuration dependent rather than code dependent. 
 - [IntroProperties](https://github.com/yuelchen/explore-java-api-library/tree/master/IntroProperties/src/com/yuelchen/main): a list of Properties operations such as loading properties file, adding property, removing property (if it exists) and storing properties to a file. 
 
+### Patterns
+A java utility for matching values against a given pattern (i.e. Regex expression). 
+- [IntroPatterns](https://github.com/yuelchen/java-api-library/tree/master/IntroPatterns/src/com/yuelchen/main): examples for using regex expression to match against an array of String values. 
