@@ -2,7 +2,7 @@
 This repository is a collection of examples or simple projects in using the built-in Java api library.
 
 ### 👋 Hello 👋
-If you found this work to be helpful, consider supporting me by buying me a [☕ ko-fi](https://ko-fi.com/yuelchen) :)
+If you found this work to be helpful and would like support me, please consider buying a [☕ ko-fi](https://ko-fi.com/yuelchen) :)
 
 ---
 ### Scanner
