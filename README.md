@@ -18,3 +18,11 @@ This allows configuration properties to be driven through an external file rathe
 ### Patterns
 A java utility for matching values against a given pattern (i.e. Regex expression). 
 - [IntroPatterns](https://github.com/yuelchen/java-api-library/tree/master/IntroPatterns/src/com/yuelchen/main): examples for using regex expression to match against an array of String values. 
+
+### Runnable
+A java utility for multi-threading when you do not require a response and simply hava a list of tasks or actions that is needed to be performed.  
+- [IntroRunnable](https://github.com/yuelchen/java-api-library/tree/master/IntroRunnable/src/com/yuelchen/main): example for creating runnable class to perform some operation and how to execute a runnable object.The operation is to print a given name, x number of times (43 by default) and have callable print the response. 
+
+### Callable
+A java utility for callable class when you do care about the worker completion and want a response once tasks or actions that is needed to be performed are complete. 
+- [IntroCallable](https://github.com/yuelchen/java-api-library/tree/master/IntroCallable/src/com/yuelchen/main): example for creating callable class to perform some operation and how to execute / retrieve response for callable object. The operation is to print a given name, x number of times (43 by default) and have callable return the response. 
