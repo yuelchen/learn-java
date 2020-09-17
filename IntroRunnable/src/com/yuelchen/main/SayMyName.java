@@ -1,7 +1,7 @@
 package com.yuelchen.main;
 
 /**
- * SayMyName is a runnable class for simply the given name; 43 by default.
+ * SayMyName is a runnable class for simply repeating the given name; 43 by default.
  * 
  * @author 	yuelchen
  * @version	1.0.0
@@ -84,15 +84,15 @@ public class SayMyName implements Runnable {
 	//====================================================================================================
 	
 	/**
-	 * Prints the duration of runtime by subtracting difference and divide by 1,000,000 
-	 * to get milli-second duration.
+	 * Prints the duration of runtime by subtracting difference and divide by 1,000
+	 * to get macro-seconds duration.
 	 * 
 	 * @param startNano		the start time of runtime in nano-seconds.
 	 * @param endNano		the end time of runtime in nano-seconds.
 	 */
 	private void printRuntimeDuration(long startNano, long endNano) {
-		long difference = endNano - startNano / 1000000L;
-		System.out.println(String.format("Thread for name '%s' completed in '%d milli-seconds'", 
+		long difference = ((endNano - startNano) / 1000L);
+		System.out.println(String.format("Thread for name '%s' completed in '%d macro-seconds'", 
 				this.name, difference));
 	}
 }
