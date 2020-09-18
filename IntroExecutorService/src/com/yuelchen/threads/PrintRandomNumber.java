@@ -6,18 +6,28 @@ public class PrintRandomNumber implements Runnable {
 
 	private int minRange = 0;
 	
+	//====================================================================================================
+	
 	private int maxRange = 10;
 	
+	//====================================================================================================
+	
 	public PrintRandomNumber() {}
+	
+	//====================================================================================================
 	
 	public PrintRandomNumber(int max) {
 		this.maxRange = max;
 	}
 	
+	//====================================================================================================
+	
 	public PrintRandomNumber(int min, int max) {
 		this.minRange = min;
 		this.maxRange = max;
 	}
+	
+	//====================================================================================================
 	
 	public void run() {
 		Random random = new Random();
