@@ -2,8 +2,7 @@ package com.yuelchen.main;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
-import com.yuelchen.threads.GenerateNumber;
+import com.yuelchen.threads.PrintRandomNumber;
 
 public class ThreadExecutor {
 	
@@ -15,7 +14,7 @@ public class ThreadExecutor {
 		//invokes a number of runnable objects
 		for(int i = 5; i < 1000; i*=5) {
 			System.out.println(String.format("Assign runnable with max value of %d", i));
-			Runnable runnable = new GenerateNumber(i);
+			Runnable runnable = new PrintRandomNumber(i);
 			service.execute(runnable);
 		}
 	}

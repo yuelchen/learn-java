@@ -2,19 +2,19 @@ package com.yuelchen.threads;
 
 import java.util.Random;
 
-public class GenerateNumber implements Runnable {
+public class PrintRandomNumber implements Runnable {
 
 	private int minRange = 0;
 	
 	private int maxRange = 10;
 	
-	public GenerateNumber() {}
+	public PrintRandomNumber() {}
 	
-	public GenerateNumber(int max) {
+	public PrintRandomNumber(int max) {
 		this.maxRange = max;
 	}
 	
-	public GenerateNumber(int min, int max) {
+	public PrintRandomNumber(int min, int max) {
 		this.minRange = min;
 		this.maxRange = max;
 	}
