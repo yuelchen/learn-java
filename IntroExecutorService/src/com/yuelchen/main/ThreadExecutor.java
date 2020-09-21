@@ -8,12 +8,23 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
-
 import com.yuelchen.threads.GetRandomNumber;
 import com.yuelchen.threads.PrintRandomNumber;
 
+/**
+ * Thread executor is a main method class for demonstrating callable and runnable class.
+ * 
+ * @author 	yuelchen
+ * @version	1.0.0
+ * @since 	2020-08-26
+ */
 public class ThreadExecutor {
 	
+	/**
+	 * The main method. 
+	 * 
+	 * @param args					an array of Strings as main method arguments.
+	 */
 	public static void main(String[] args) {
 		
 		//new executor service with 10 threads
@@ -46,6 +57,7 @@ public class ThreadExecutor {
 			} 
 		}
 		
+		//shutdown executor service
 		try {
 			service.awaitTermination(Long.MAX_VALUE, TimeUnit.MILLISECONDS);
 			service.isShutdown();
