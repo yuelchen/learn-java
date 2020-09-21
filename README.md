@@ -26,3 +26,7 @@ A java utility for multi-threading when you do not require a response and simply
 ### Callable
 A java utility for callable class when you do care about the worker completion and want a response once tasks or actions that is needed to be performed are complete. 
 - [IntroCallable](https://github.com/yuelchen/java-api-library/tree/master/IntroCallable/src/com/yuelchen/main): example for creating callable class to perform some operation and how to execute / retrieve response for callable object. The operation is to print a given name, x number of times (43 by default) and have callable return the response. 
+
+### ExecutorService
+A java utility for ExecutorService class to schedule and execute concurrent methods (threads). 
+- [IntroExecutorService](https://github.com/yuelchen/java-api-library/tree/master/IntroExecutorService/src/com/yuelchen): example for assigning  runnable / callable objects for execution. The example uses random number generator to either return a result that can be retrieved once worker finishes running (callable) or simply executes steps and prints out result (runnable). 
