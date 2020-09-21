@@ -2,6 +2,13 @@ package com.yuelchen.threads;
 
 import java.util.Random;
 
+/**
+ * Runnable class for printing random number.
+ * 
+ * @author	yuelchen
+ * @version	1.0.0
+ * @since	2020-09-20
+ */
 public class PrintRandomNumber implements Runnable {
 
 	/**
@@ -18,15 +25,15 @@ public class PrintRandomNumber implements Runnable {
 	
 	//====================================================================================================
 	
-	 /**
-	  * Constructor
-	  */
+	/**
+	 * Constructor.
+	 */
 	public PrintRandomNumber() {}
 	
 	//====================================================================================================
 	
 	/**
-	 * Constructor 
+	 * Constructor.
 	 * 
 	 * @param max			the maximum range for random number.
 	 */
@@ -37,7 +44,7 @@ public class PrintRandomNumber implements Runnable {
 	//====================================================================================================
 	
 	/**
-	 * Constructor
+	 * Constructor.
 	 * 
 	 * @param min			the minimum range for random number.
 	 * @param max			the maximum range for random number.
