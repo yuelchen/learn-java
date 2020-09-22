@@ -3,8 +3,20 @@ package com.yuelchen.main;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * ArrayListExample is for demonstrating operations that can be performed on List.
+ * 
+ * @author 	yuelchen
+ * @version	1.0.0
+ * @since	2020-09-03
+ */
 public class ArrayListExample {
 	
+	/**
+	 * Main method. 
+	 * 
+	 * @param args				an array of String values. 
+	 */
 	public static void main(String[] args) {		
 		
 		//creates a list for storing String
