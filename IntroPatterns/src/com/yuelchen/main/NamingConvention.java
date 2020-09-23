@@ -5,7 +5,7 @@ package com.yuelchen.main;
  * 
  * @author 	yuelchen
  * @version	1.0.0
- * @since	2020-09-03
+ * @since	2020-09-22
  */
 public class NamingConvention {
 	
