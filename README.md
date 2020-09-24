@@ -32,4 +32,11 @@ A java utility for ExecutorService class to schedule and execute concurrent meth
 - [IntroExecutorService](https://github.com/yuelchen/java-api-library/tree/master/IntroExecutorService/src/com/yuelchen): example for assigning  runnable / callable objects for execution. The example uses random number generator to either return a result that can be retrieved once worker finishes running (callable) or simply executes steps and prints out result (runnable). 
 
 ### List 
-A java utility for an unordered collection of objects - data type. 
+A java utility for an unordered collection of objects - data structure. 
+- [IntroListTypes](https://github.com/yuelchen/java-api-library/tree/master/IntroListTypes/src/com/yuelchen/main): examples for different List implementations for managing objects. The examples all does essentially the same thing with a different approach logic-wise. 
+   - ArrayList
+   - LinkedList
+   - Stack
+   - Vector
+   - CopyOnWriteArrayList
+
