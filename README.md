@@ -1,10 +1,43 @@
 # java-api-library
-This repository is a collection of examples or simple projects in using the built-in Java api library.
+A repository for storing solutions to Java practice problems, using Java API library and other exploratory projects. 
 
-### 👋 Hello 👋
-If you found this work to be helpful and would like support me, please consider buying a [☕ ko-fi](https://ko-fi.com/yuelchen) :)
+## Getting Started
+1. Install [Java](https://java.com/en/download/help/download_options.xml) on your computer. 
+2. Choose an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment) - *pick and choose your own or one of the options below*:
+    - [Eclipse](https://www.eclipse.org/downloads/) - *FYI, repository projects will be created with Eclipse IDE*.
+    - [Intellij IDEA](https://www.jetbrains.com/help/idea/installation-guide.html).
+3. Start IDE and designate your workspace location or import this repository project. 
+
+## About Java 
+source: Head First Java by Bert Bates and Kathy Sierra
++ **The 5 W's and How of Java**
+    - **What** is java? </br>
+    Java is a friendly object-oriented programming language that was designed to be portable - follows the principle of write once and run anywhere. An [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) language - also known as OOP - referes to a language that uses the concept of objects to contain data for running through procedures. </br>
+    
+    - **When** was Java created? </br>
+    Java was developed in the 1990's and offically release on January 23, 1996; it's first appearance however was a bit earlier, on May 23, 1995. </br>
+    
+    - **Who** developed Java? </br>
+    Java was originally developed by a computer scientist from Canada, [James Gosling](https://en.wikipedia.org/wiki/James_Gosling) while at Sun Microsystems; often referred to as "Dr. Java" for his contributions to the Java Platform. Sun Microsystems was a company that mostly sold computers, computer components, software and information technology services. The company has since been acquired by [Oracle](https://en.wikipedia.org/wiki/Oracle_Corporation) for $7.4 Billion US; officially completed on Janurary 27, 2010. 
+    
+    - **Why** do developers program in Java? </br>
+    Java is a popular programming languge used by many companies in the IT industry (or any industry that works with technology really - i.e. Mortgage company that develops software for internal use). One of the reasons why people continue to use Java as the programming lanugage of choice is because of it's simplicity, robust and reusability of code - this saves developers and businesses a lot of time and money. </br> 
+    
+    - **Where** can I learn how to program in Java? </br>
+    You can learn Java through a number of online resources, I'll link some below: </br>
+        - [CodeAcademy](https://www.codecademy.com/learn/learn-java)
+        - [GeeksForGeeks](https://www.geeksforgeeks.org/java-how-to-start-learning-java/)
+        - [Oracle (Docs)](https://docs.oracle.com/javase/tutorial/java/index.html)
+        - [TutorialsPoint](tutorialspoint.com/java/index.htm)
+        - [w3schools](https://www.w3schools.com/java/)
+    
+    - **How** does Java work? *Credit for image: Head First Java* </br>
+    ![Head First Java](/Head%20First%20Java%20-%20How%20Java%20Works%20Image.png)
+    
+    *Tip(s) - Don't get discouraged if you get stuck, there are so many online forums and resources that more than likely, other developers have had and solved the issue you are seeing; a simple google search might be all you need to do. Get friendly with stackoverflow.com.*
 
 ---
+## Java API Library
 ### Scanner
 A java utility for obtaining input for primitive types and Strings; see below two projects for source examples:
 - [GuessingGames](https://github.com/yuelchen/explore-java-api-library/tree/master/GuessingGames/src/com/yuelchen): a simple (number) guessing game where the user provides the system a range from which it can pick a random number. The user is then allowed to guess the random number the system generated and once correctly guessed, the system will return with the count of guesses made. 
