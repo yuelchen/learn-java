@@ -1,4 +1,4 @@
-# java-api-library
+# starting-java
 A repository for storing solutions to Java practice problems, using Java API library and other exploratory projects. 
 
 ## Getting Started
