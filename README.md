@@ -9,7 +9,7 @@ A repository for storing solutions to Java practice problems, using Java API lib
 3. Start IDE and designate your workspace location or import this repository project. 
 
 ## About Java 
-source: Head First Java by Bert Bates and Kathy Sierra
+Source: Head First Java by Bert Bates and Kathy Sierra
 + **The 5 W's and How of Java**
     - **What** is java? </br>
     Java is a friendly object-oriented programming language that was designed to be portable - follows the principle of write once and run anywhere. An [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) language - also known as OOP - referes to a language that uses the concept of objects to contain data for running through procedures. </br>
